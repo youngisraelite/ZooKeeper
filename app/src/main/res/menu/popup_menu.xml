@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/stats"
+        android:title="Stats"
+       >
+
+    </item>
+
+    <item
+        android:id="@+id/store"
+        android:title="Store"
+        >
+    </item>
+
+    <item
+        android:id="@+id/music"
+        android:title="Music">
+
+    </item>
+
+    <item
+        android:id="@+id/login"
+        android:title="Log In">
+    </item>
+
+
+</menu>

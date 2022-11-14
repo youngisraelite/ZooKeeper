@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<pl.droidsonroids.gif.GifImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crash">
+
+</pl.droidsonroids.gif.GifImageView>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:text="         Oh no!!\n You Lost Focus!"
+       android:textSize="50dp"
+       android:textColor="#FF0000"/>
+
+    <Button
+        android:id="@+id/crashToHomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:textColor="#000000"
+        android:backgroundTint="#F8F0E3"
+        android:text="Home" />
+</RelativeLayout>

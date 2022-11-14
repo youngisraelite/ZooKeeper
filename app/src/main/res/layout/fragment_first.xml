@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/complete_screen"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pandaDance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/panda_complete" />
+
+    <ImageView
+        android:id="@+id/spiningCoin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/coin" />
+
+
+    <Button
+        android:id="@+id/coffeBreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#F8F0E3"
+        android:text="Coffee Break"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pandaDance" />
+
+    <Button
+        android:id="@+id/KeepDriving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="600dp"
+        android:layout_toRightOf="@id/coffeBreak"
+        android:backgroundTint="#F8F0E3"
+        android:text="Keep Driving"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/finishToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#F8F0E3"
+        android:text="home"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/finishMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:text="      GOOD JOB!!! \n YOU STAYED FOCUS"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/clickToCollectTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/cream"
+        android:textStyle="bold"
+        android:text="Click To \n Collect:"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:text="Coins:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/cream"/>
+
+    <TextView
+        android:id="@+id/coinCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="110dp"
+        android:text="0"
+        android:textColor="@color/cream"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+</RelativeLayout>

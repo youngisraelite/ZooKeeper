@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636571202460",
+    "project_id": "pandataxi-429f5",
+    "storage_bucket": "pandataxi-429f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636571202460:android:48cb83383d71f338940e59",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636571202460-89hpsqbfornortooafemu8s565rt796m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT8yAJpvFUBmav6HMSHT-DqvLsZ5jDFbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636571202460-89hpsqbfornortooafemu8s565rt796m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
